@@ -3,7 +3,7 @@ import axios from 'axios'
 import { Answer, Question } from '../types/question'
 import { Button } from 'antd'
 
-const TIMER_SECONDS = 10
+const TIMER_SECONDS = 15
 
 function QuestionForm() {
     const [questions, setQuestions] = useState<Question[]>([])
